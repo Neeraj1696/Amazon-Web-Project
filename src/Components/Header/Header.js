@@ -3,8 +3,7 @@ import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
-import { useStateValue } from "./StateProvider";
-import { SportsBasketball } from "@mui/icons-material";
+import { useStateValue } from "../StateProvider/StateProvider";
 
 function Header() {
   const [{ basket }, dispatch] = useStateValue();
