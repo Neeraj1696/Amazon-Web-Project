@@ -13,14 +13,14 @@ const Home = () => {
         />
         <div className="home_row">
           <Product
-            title="The Product One"
+            title="WOW Skin Science Apple Cider Vinegar Shampoo - Restores Shine & Smoothness - 300ml"
             price={500}
             image="https://m.media-amazon.com/images/I/71zpu612ieL._AC_UL480_FMwebp_QL65_.jpg"
             rating={5}
             id={1}
           />
           <Product
-            title="The Product Two"
+            title="Vitro MY BEAUTY BUNDLE Skin Care Gift Set For Men & Women | Combo of Toothpaste, Rose Water, Aloe Vera Gel, Aloe Jojoba Shampoo, Herbal Hair Conditioner Gift Set For Birthday, Anniversay, Wedding,New Year Gift"
             price={399}
             image="https://m.media-amazon.com/images/I/61MSDfj89wL._AC_UL480_FMwebp_QL65_.jpg"
             rating={4}
@@ -32,21 +32,21 @@ const Home = () => {
         </div>
         <div className="home_row">
           <Product
-            title="The Product Three"
+            title="WOW Skin Science UV Sunscreen Spray Spf 50, 100 ml"
             price={299}
             image="https://m.media-amazon.com/images/I/61ojfQuujcL._AC_UL480_FMwebp_QL65_.jpg"
             rating={5}
             id={3}
           />
           <Product
-            title="The Product Four"
+            title="H2O Unbreakable Plastic Bottle Set, 1 Litre, Set of 7, Multicolour"
             price={500}
             image="https://www.junglescout.com/wp-content/uploads/2021/01/product-photo-water-bottle-hero.png"
             rating={2}
             id={4}
           />
           <Product
-            title="The Product Five"
+            title="Boldfit Sports Water Bottle - Leak-Proof BPA-Free Material Aqua Sipper Water Bottle for Home, Office, Gym Trekking, Camping"
             price={599}
             image="https://images-na.ssl-images-amazon.com/images/I/41AtSYlLobL._AC_SY400_.jpg"
             rating={4}
@@ -58,8 +58,8 @@ const Home = () => {
         </div>
         <div className="home_row">
           <Product
-            title="The Product Six"
-            price={500}
+            title="LG 108 cm (43 inches) 4K Ultra HD Smart LED TV 43UP7500PTZ (Rocky Black) (2021 Model)"
+            price={49999}
             image="https://m.media-amazon.com/images/I/71vZLIfj5yS._AC_UY327_FMwebp_QL65_.jpg"
             rating={2}
             id={6}

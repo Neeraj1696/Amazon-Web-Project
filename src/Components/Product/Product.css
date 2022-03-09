@@ -28,6 +28,8 @@
 }
 .product_price {
   margin-top: 5px;
+  display: flex;
+  justify-content: center;
 }
 .product_info {
   height: 100px;
@@ -35,4 +37,5 @@
 }
 .product_rating {
   display: flex;
+  justify-content: center;
 }
