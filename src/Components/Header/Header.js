@@ -10,7 +10,7 @@ function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
   const handleAuthenticaton = () => {
     if (user) {
-      auth.signOut();
+      auth.signIn();
     }
   };
   return (
@@ -27,11 +27,13 @@ function Header() {
         <SearchIcon className="header_searchIcon" />
       </div>
       <div className="header_nav">
-        <Link to={!user && "/login"}>
+        <Link to={!user && "/Login"}>
           <div onClick={handleAuthenticaton} className="header_option">
-            <span className="header_optionlineone">Hello Guest</span>
+            <span className="header_optionlineone">
+              Hello ${!user ? "Guest" : user.email}
+            </span>
             <span className="header_optionline2">
-              {user ? "Sign In" : "Sign Out"}
+              {!user ? "Sign Out" : "Sign In"}
             </span>
           </div>
         </Link>
